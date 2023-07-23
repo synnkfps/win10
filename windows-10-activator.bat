@@ -1,0 +1,23 @@
+@echo off
+@color 3
+echo ........................................
+echo . Windows 10 Activator             - X .
+echo ........................................
+echo .      Quick Windows 10 Activation     .
+echo .  Key: W269N-WFGWX-YVC9B-4J6C9-T83GX  .
+echo .                                      .
+echo .........................by SynnK.......
+echo Registering Key...
+slmgr.vbs /ipk W269N-WFGWX-YVC9B-4J6C9-T83GX
+echo Register Complete!
+echo.
+echo Setting up kms server...
+slmgr.vbs /skms kms8.msguides.com
+echo Success!
+echo.
+echo Activating Windows...
+slmgr.vbs /ato
+echo Success!
+echo Closing in 3 seconds...
+timeout /t 3 /NOBREAK
+exit
